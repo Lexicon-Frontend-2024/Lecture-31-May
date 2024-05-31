@@ -1,0 +1,55 @@
+.static-element {
+  background-color: aqua;
+  padding: 2rem;
+
+  /* Defaults to static */
+  /* position: static; */
+  top: 10px;
+}
+
+.relative-element {
+  background-color: blueviolet;
+  color: white;
+  padding: 2rem;
+  width: 300px;
+
+  position: relative;
+  left: 80px;
+  bottom: 20px;
+}
+
+.navbar {
+  background-color: fuchsia;
+  padding: 1rem;
+
+  position: fixed;
+  top: 0;
+
+  /* The width will only span the width of the content, padding and border. We can change this with two methods: */
+
+  /* Alternative 1: width 100%^ */
+  /* width: 100%; */
+
+  /* Alternative 2: left and right property as 0 */
+  left: 0;
+  right: 0;
+}
+
+body {
+  padding-top: 50px;
+}
+
+.container {
+  background-color: green;
+  padding: 1rem;
+  position: relative;
+  height: 300px;
+  width: 300px;
+}
+
+.container .absolute-element {
+  background-color: gray;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
